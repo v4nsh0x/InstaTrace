@@ -1,5 +1,5 @@
 # InstaTrace  
-**Private Instagram Post URL Extractor (Research POC – 2025 Vulnerability)**
+**Private Instagram Post URL Extractor (Only Collab Posts)**
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-inconsistent-orange?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000" alt="Status: Inconsistent">
@@ -8,9 +8,8 @@
 </p>
 
 **⚠️ IMPORTANT LEGAL & ETHICAL NOTICE**  
-This tool demonstrates behavior related to a **historical server-side vulnerability** originally reported to Meta in October 2025 (officially patched shortly after).  
+This tool demonstrates behavior related to collab posts.  
 
-**As of February 2026 the original bug is considered fixed by Meta**, yet **in practice the tool still sometimes extracts image URLs from certain private accounts** — especially those that have active or past collaboration (collab) posts with public accounts.
 
 **Behavior is highly inconsistent**:
 - Works on some private accounts with public collabs  
@@ -54,6 +53,8 @@ Many private accounts (even with collabs) return **NOT VULNERABLE** or no privat
 - Clear verdict: **VULNERABLE** / **NOT VULNERABLE** / partial results  
 - Saves found image URLs grouped by post with resolutions  
 - Output file: `username_urls.txt`
+
+## I'm not responsible for anything
 
 ## Requirements
 
