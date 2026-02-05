@@ -176,7 +176,8 @@ def main():
             # Show a few samples
             print(f"\n{C['dim']}First few:{Style.RESET_ALL}")
             for i, (pid, res, url) in enumerate(urls_sorted[:4], 1):
-                print(f"  {i}. {pid} | {res} | {url[:68]}{'...' if len(url)>68 else ''}")
+                # print(f"  {i}. {pid} | {res} | {url[:68]}{'...' if len(url)>68 else ''}")
+                print(f"  {i}. {pid} | {res} | {url}")
             
             save_results(urls, username)
         else:
